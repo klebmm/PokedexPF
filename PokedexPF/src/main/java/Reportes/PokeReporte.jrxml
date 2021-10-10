@@ -47,15 +47,31 @@ $P!{columna} = $P{valor};]]>
 	<title>
 		<band height="76" splitType="Stretch">
 			<staticText>
-				<reportElement x="0" y="0" width="572" height="43" uuid="9aa00578-68d6-492d-91c0-9e8eb9b8d112"/>
+				<reportElement x="0" y="0" width="572" height="42" forecolor="#FF3333" uuid="9aa00578-68d6-492d-91c0-9e8eb9b8d112"/>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="28" isBold="true"/>
 				</textElement>
-				<text><![CDATA[Reporte Pokemon]]></text>
+				<text><![CDATA[POKE REPORT]]></text>
 			</staticText>
 			<line>
 				<reportElement x="154" y="42" width="263" height="1" uuid="4e7c1610-5e96-45b3-ba28-847ad8acb675"/>
 			</line>
+			<line>
+				<reportElement x="154" y="0" width="1" height="43" uuid="f7823d53-c11c-450b-b8bf-1f52f6b71685"/>
+			</line>
+			<line>
+				<reportElement x="416" y="-1" width="1" height="43" uuid="8ba5a997-dbff-4409-98fd-02d9dd851097"/>
+			</line>
+			<line>
+				<reportElement x="155" y="0" width="263" height="1" uuid="131c96cd-4c6d-40ba-9c4b-0d1447c8c046"/>
+			</line>
+			<staticText>
+				<reportElement x="-10" y="-21" width="169" height="20" uuid="8df025d2-3b5a-408e-91f4-e20d5930f318"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="16" isBold="true"/>
+				</textElement>
+				<text><![CDATA[by Jaime and Pablo]]></text>
+			</staticText>
 		</band>
 	</title>
 	<pageHeader>
@@ -68,59 +84,62 @@ $P!{columna} = $P{valor};]]>
 				<textElement textAlignment="Center">
 					<font fontName="Arial" size="16" isBold="true"/>
 				</textElement>
-				<text><![CDATA[Código]]></text>
+				<text><![CDATA[ID]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="57" y="0" width="102" height="20" uuid="38368486-f28a-4422-8d7c-fe252c2faff6"/>
 				<textElement textAlignment="Center">
 					<font fontName="Arial" size="16" isBold="true"/>
 				</textElement>
-				<text><![CDATA[Nombre]]></text>
+				<text><![CDATA[NAME]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="159" y="0" width="69" height="20" uuid="d401887a-dfdf-4c53-b354-503d376b09c0"/>
 				<textElement textAlignment="Center">
 					<font fontName="Arial" size="16" isBold="true"/>
 				</textElement>
-				<text><![CDATA[Gen]]></text>
+				<text><![CDATA[GENER...]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="332" y="0" width="90" height="20" uuid="f38794e9-c06b-47d6-bb1d-589efa008d67"/>
 				<textElement textAlignment="Center">
 					<font fontName="Arial" size="16" isBold="true"/>
 				</textElement>
-				<text><![CDATA[Especie]]></text>
+				<text><![CDATA[SPECIES]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="422" y="0" width="76" height="20" uuid="3006bf96-d157-45a7-be0a-1f23bd20442e"/>
 				<textElement textAlignment="Center">
 					<font fontName="Arial" size="16" isBold="true"/>
 				</textElement>
-				<text><![CDATA[Color]]></text>
+				<text><![CDATA[COLOR]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="498" y="0" width="74" height="20" uuid="7ee3a0ce-7f1d-4eea-bd99-5ebb5277682d"/>
 				<textElement textAlignment="Center">
 					<font fontName="Arial" size="16" isBold="true"/>
 				</textElement>
-				<text><![CDATA[Habitat]]></text>
+				<text><![CDATA[HABITAT]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="278" y="0" width="54" height="20" uuid="674da21a-5435-440d-b04e-d89fe447faea"/>
 				<textElement textAlignment="Center">
 					<font fontName="Arial" size="16" isBold="true"/>
 				</textElement>
-				<text><![CDATA[Peso]]></text>
+				<text><![CDATA[WEIGHT]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="228" y="0" width="50" height="20" uuid="9078d138-9968-421b-a1f2-dfa9aca33e96"/>
 				<textElement textAlignment="Center">
 					<font fontName="Arial" size="16" isBold="true"/>
 				</textElement>
-				<text><![CDATA[Altura]]></text>
+				<text><![CDATA[HEIGHT]]></text>
 			</staticText>
 			<line>
 				<reportElement x="0" y="19" width="572" height="1" uuid="7f370745-77aa-42f8-9a58-a3aae055e737"/>
+			</line>
+			<line>
+				<reportElement x="0" y="30" width="572" height="1" uuid="1e59335a-48d2-4564-b5cd-579fdde987f5"/>
 			</line>
 		</band>
 	</columnHeader>
